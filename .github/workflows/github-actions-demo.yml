@@ -26,8 +26,8 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_url: https://github.com/Drupalnest/broadway.git
-        github_token: ${{ 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 }}
+        github_url: https://github.com/Drupalnest/workflow.git
+        github_token: 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
         branch: ${{ github.ref }}
 
 
