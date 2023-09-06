@@ -1,0 +1,1 @@
+run: ssh root@165.227.193.127 "cd /root/workflow && git checkout master && git pull && exit"
